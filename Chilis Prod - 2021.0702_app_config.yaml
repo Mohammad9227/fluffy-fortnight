@@ -1,0 +1,183 @@
+accessibility-long-press-duration: 10000
+back-office:
+  connect-timeout: 10
+  getcheck-polling-interval: 600
+  host: 192.168.52.10
+  network-timeout: 30
+batch-compression-enabled: false
+batch-mode-enabled: false
+brand-name: Chilis
+default-tip-percent: 20
+default-volume-percent: 0.0
+disable-game-purchase-on-void: false
+fb-connect:
+  enabled: false
+  fb-like-link: null
+game:
+  num-free-games: 1
+  pos-id: 30151
+  price: 1.99
+  tax-rate: 9.6
+game_timeout_interval: 600
+gift-card:
+  balance-inquiry-enabled: false
+hide-call-server: true
+hide-quick-pay-kiosk-survey: true
+home-nav:
+  col-link-id-1: '1'
+  col-link-type-1: OPEN_INFO_PAGE
+  col-text-1: MENU
+host-server-control-panel:
+  guest-count-enabled: false
+  host-session-start-timeout: 10
+host-session-start-enabled: true
+info:
+  - id: MENU_QR_CODE
+    label: Menu
+  - id: ECLUB
+    label: Happy Hour
+  - id: NUTRITION_INFO
+    label: Nutritional Info
+  - id: ALLERGEN_INFO
+    label: Allergen Info
+info-5-label: Connect
+ingredient-warning-threshold:
+  sodium-threshold: 2300
+led-duration: 180
+left-tip-percent: 18
+loyalty:
+  top-loyalty-text: '''Rewards'''
+loyalty_redemption:
+  account_number_length: 16
+  enabled: false
+  points_to_redeem: 9
+menu-qr-code:
+  background-image: images/design/info/menu_qr_code_bg.png
+  description-text: 'We take both safety & sizzling seriously.
+
+    Open your camera and scan QR code to view touch-free, digital menu.'
+  header-text: Scan For Menu
+  enabled: true
+menu-update: false
+menu-update-enabled: false
+menu-update-mandatory: false
+mixpanel-enabled: false
+music:
+  add-song-to-check: false
+  default-song-price: 0.99
+  get-artists-interval: 1800
+  jukebox-add-artists: method=add_artists&artist
+  jukebox-add-down-vote: method=add_down_vote&pick=
+  jukebox-add-song: method=add_song&song=
+  jukebox-add-up-vote: method=add_up_vote&pick=
+  jukebox-api-url: https://api.rockbot.com/kiosk?api_key=b09bf58e0c422d4531c4a24846ee7657&device=72E2CU001954&
+  jukebox-enabled: false
+  jukebox-get-artist: method=get_artist&artist=
+  jukebox-get-artists: method=get_artists
+  jukebox-get-now-playing: method=get_now_playing
+  jukebox-get-popular: method=get_top_songs
+  jukebox-search-song: method=search_songs&query=
+  now-playing-interval: 15
+  song-item-id: 900000
+  song-item-name: Jukebox Song
+nutritionals:
+  calories-enabled: false
+  disclaimers-enabled: false
+  disclaimers-initially-collapsed: false
+order-waiting-animation:
+  enabled: true
+  slide-image-stay-duration-millisec: 2000
+  title-text-stay-duration-millisec: 50000
+  titles: "Sending order\u2026"
+party-selection-timeout-seconds: 12
+payment:
+  gift-card-preambles-track1: '601056,618900,618750,77771,777723'
+  gift-card-preambles-track2: '601056,618900,618750,77771,777723'
+payment-giftcard-text: "Paying with \nChili's Gift Card"
+payment-led-duration: 60
+payment-merchant-link-server-type: ProductionPrimary
+payment-processor-sha-keys: 9284/TV2G, 9285/TV2G
+payment-statement-update-interval: 0
+payment-store-and-forward-enabled: false
+payment-terminal-code: '1'
+payment-workstation-id: '1'
+personalization:
+  personalization-sign-in: false
+  personalized-menu-enabled: true
+premium-survey-timeout-secs: 30
+presto-branding:
+  card-swipe-screen:
+    enabled: false
+receipt-version: 2
+redirect-to-games-on-order: false
+reorder:
+  init-number-drinks: 1
+  reorder-header-text: Re-Order Drinks?
+  show-free-refill-label: false
+resource-sync:
+  download-threads: 2
+  max-retries-proxy: 2
+restaurant-ui: chilis
+rewards-start-time: 120
+right-tip-percent: 22
+screensaver-timeout: 120
+server-mode:
+  exit-button-label: BACK
+  light-weight-check-building: true
+  restore-notes: false
+  scan-coupon-button: false
+  server-id-validation: true
+  table-id-validation: true
+server-swipe:
+  confirm-popup-time: 2
+  max-length: 15
+  min-length: 3
+  send-full-track-data: true
+  track1-prefix: '%'
+  track2-prefix: ;
+servermode_menudb_path: handheld_menu2.db
+session:
+  touch-timeout-secs: 600
+session-start-led-pulse-duration: 360
+session-timeout-period: 360
+should-log-posmon-payload: true
+show-email-club-checkbox: false
+show-join-button-on-info: true
+show-payment-warning-dialog: true
+show-server-name-main-screen: true
+show-server-name-table-number-slide-show: true
+split-by-item:
+  disabled-on-partial-payments: true
+  split-check: false
+stale-check-threshold-in-seconds: 15
+tip:
+  apply-discount-before-tip-calculation: false
+  none-button-enabled: false
+  sub-text: ' * Tip is calculated based on total before discount.'
+tip-donation-for-charity:
+  add-extra-donation-enabled: true
+  charity-type: stjude
+  choice-additional-amounts: 1,5,10,25
+  choice-donation-description: Donation Amount
+  choice-title: Please consider giving to St Jude Children's Research Hospital
+  donation-text: Add donation amount
+  donation_campaign: St. Jude's
+  enabled: true
+  enabled-qpk: false
+  payment-flow-donation-banner-subheading: Would you like to round up your Order Total
+    and donate to St. Jude Children's Research Hospital?
+  payment-flow-donation-banner-text: Select a donation amount
+  payment-flow-donation-screen-banner-color: null
+  payment-flow-donation-screen-logo: /images/design/bill/st_jude_logo.png/
+  prompt-image-url: ''
+  roundup:
+    roundup-button-text: Yes, round up
+    roundup-donation-text: Add extra
+    roundup-enabled: true
+    roundup-payment-flow-donation-banner-subheading: Would you like to round up your
+      Order Total and donate to St. Jude Children's Research Hospital?
+    roundup-payment-flow-donation-banner-text: Be the hero. Round Up for Change.
+tip-excluded-posids: 30000,30002
+tip-screen:
+  custom-tip-screen: false
+welcome-video-dismissable: true

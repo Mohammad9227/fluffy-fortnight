@@ -1,0 +1,154 @@
+accessibility-long-press-duration: 10000
+add-to-cart-text: Order Now
+alcohol-ordering-ui-enabled: false
+auto-send-nonalcohol-items: false
+back-office:
+  connect-timeout: 10
+  getcheck-polling-interval: 1200
+  host: 192.168.4.3
+batch-compression-enabled: false
+batch-mode-enabled: false
+brand-name: Red Lobster
+left-tip-percent: 15
+default-tip-percent: 18
+right-tip-percent: 20
+default-volume-percent: 0.0
+fb-connect:
+  enabled: false
+  fb-like-link: null
+  link-x: '5000'
+  link-y: '5000'
+  qr-image-x: '5000'
+  qr-image-y: '5000'
+game_timeout_interval: 300
+gift-card:
+  balance-inquiry-button-x: '5000'
+  balance-inquiry-button-y: '5000'
+  balance-inquiry-enabled: true
+hide-call-server: true
+home-nav:
+  col-text-1: ORDER
+host-server-control-panel:
+  host-session-start-timeout: 20
+host-session-start-enabled: true
+info:
+- id: CONNECT
+  label: The Story
+- id: VETERANS
+  label: Quality
+- id: GIFT_CARD
+  label: Rewards
+- id: NUTRITION_INFO
+  label: Nutritional Info
+- id: ALLERGEN_INFO
+  label: Allergen Info
+info-5-label: Connect
+ingredient-warning-threshold:
+  sodium-threshold: 2300
+led-duration: 120
+loyalty:
+  receipt-entry-name: Loyalty Club Signup
+  rewards-app-name: My Red Lobster Rewards
+  top-loyalty-text: '''Rewards'''
+loyalty_redemption:
+  account_number_length: 16
+  enabled: false
+  points_to_redeem: 9
+  qr-code-enabled: true
+menu-update-enabled: true
+menu-update-mandatory: false
+nutritionals:
+  calories-enabled: true
+  disclaimers-enabled: true
+  disclaimers-initially-collapsed: true
+partial-auth-split-remaining-text: Split Remaining
+pay_split_disabled: false
+payment:
+  card-remove-screen-location: before-receipt-screen
+  gift-card-preambles-track1: '601056'
+  gift-card-preambles-track2: '601056'
+  payment-watchdog-wake-up-every-seconds: 5
+  tip-after-tax: true
+payment-email-restaurant-notification-toggle-text: I'm happy to provide more detailed
+  information about my experience.
+payment-email-restaurant-toggle-initial-state: true
+payment-giftcard-text: Pay with Red Lobster Gift Card
+payment-icc-removed-callback-timeout: 10
+payment-led-duration: 86400
+payment-merchant-link-server-type: ProductionPrimary
+payment-non-check-payments-possible: true
+payment-request-response-timeout-seconds: 30
+payment-request-timeout-seconds: 30
+payment-screen-text: Insert or swipe payment/gift card now
+payment-should-force-debit-transaction: false
+payment-signature-minimum-payment-total: 10000
+payment-statement-update-interval: 0
+payment-store-and-forward-enabled: false
+payment-terminal-code: '1'
+payment-timeout-period: 120
+payment-workstation-id: '1'
+premium-survey-confirm:
+  body: Would you consider taking a short 3 minute survey right now?
+  enabled: false
+  no-button: 'No'
+  title: We would love your feedback!
+  yes-button: 'Yes'
+premium-survey-require-answer: false
+premium-survey-timeout-secs: 120
+presto-branding:
+  card-swipe-screen:
+    enabled: false
+receipt:
+  email-club-checkbox-text: Yes, please enroll me in Fresh Catch News and email me special offers and news about Red Lobster.
+reorder:
+  reorder-header-text: Re-Order Drinks?
+  show-always-reorder: false
+  show-free-refill-label: true
+  show-reorder-alert-confirm: false
+resource-sync:
+  download-threads: 3
+  max-retries-proxy: 8
+server-mode:
+  apply-multiple-discounts: true
+  coupons-numeric-keyboard-enabled: true
+  exit-button-label: BACK
+  manual-entry-button: true
+  restore-notes: false
+  scan-coupon-button: true
+  selectable-discounts-enabled: false
+  selectable-discounts-interval: 2
+  selectable-discounts-items-enabled: true
+  server-id-validation: true
+server-swipe:
+  confirm-popup-time: 4
+  max-length: 20
+  min-length: 4
+  send-full-track-data: true
+  server_swipe_use_assign_waiter_id: true
+  track1-prefix: '%'
+  track2-prefix: ;2
+session:
+  host-start-timeout-secs: 900
+  payment-timeout-secs: -1
+  server-start-timeout-secs: 600
+  survey-timeout-secs: 30
+  touch-timeout-secs: 300
+session-timeout-period: '120'
+show-email-club-checkbox: true
+show-join-button-on-info: true
+show-pos-name-main-screen: false
+show-server-name-main-screen: false
+show-server-name-table-number-slide-show: true
+split-by-item:
+  disabled-on-check-level-discount: true
+  split-check: true
+survey-show-finish-button: true
+tip:
+  apply-discount-before-tip-calculation: false
+  sub-text: ' * Tip is calculated based on total before discount.'
+tip-screen:
+  custom-tip-screen: false
+volume-initial-percentage-a3: 40
+welcome-video-dismiss-seconds: 0
+welcome-video-dismissable: true
+

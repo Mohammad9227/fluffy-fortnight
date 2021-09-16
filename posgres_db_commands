@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo -u postgres psql
+ALTER USER postgres PASSWORD 'local_pass';

@@ -1,0 +1,495 @@
+APPLEONE:
+  restaurant: elc_qa_dennys_1
+POSMON:
+  restaurantcode: elc_qa_dennys_1
+aarp-discount: 10
+aarp-feature: true
+aarp-manual-entry-button: false
+accessibility-long-press-duration: 5000
+alcohol-ordering-ui-enabled: false
+alert-trigger:
+  alcoholic-order-sent: false
+  order-sent: false
+arcade-popup-enabled: false
+auto-send-nonalcohol-items: false
+back-office:
+  SSL: true
+  connect-timeout: 100
+  getcheck-polling-interval: 600
+  host: 192.168.1.118
+  max-retries: 3
+  network-timeout: 30
+  port: 7752
+  retry-interval: 5
+  retry-on-error: true
+  send-session-id: false
+  send-transaction-id: true
+  ssl-code-check: false
+  ssl-hostname-check: false
+batch-compression-enabled: false
+batch-mode-enabled: false
+batch-mode-max-delay-secs: 900
+block-pay-activity: false
+block-system-home: true
+brightness-percentage: '20'
+call-server:
+  check-open-mandatory: true
+  enabled: true
+  flashing-period: 180
+  pos-id: 27537
+check-timeout: 60000
+control-panel:
+  password: 4321
+coupon:
+  enabled: false
+  manual-entry-allowed: false
+  max-accepted: 1
+  qr-scan-allowed: false
+custom-req-enabled: false
+debugging:
+  fake-menu-update:
+    enabled: false
+    items:
+    - increment: '0.8'
+      pos-id: '102005'
+      start-price: '11.99'
+    - flip86ed: true
+      increment: '0.50'
+      pos-id: '102021'
+      start-price: '8.99'
+    - flip86ed: false
+      increment: '0.50'
+      pos-id: '102018'
+      start-price: '5.99'
+  qa-hooks: ''
+  show-item-id: false
+  simulate-card-swipe: false
+  webservice-api: false
+default-tip-percent: 20
+default-volume-percent: 100.0
+demo-fixed-price-enabled: true
+disable-game-purchase-on-void: true
+disable-order: true
+discount-applied-toast-dismissal: 5
+discount-or-rewards-applied-toast-message: AARP Discount Applied
+employee-message-system: posmon
+enable-list-view: false
+enhanced-slides-enabled: true
+error-webservice-version: 1
+fb-connect:
+  enabled: true
+  fb-like-link: http://www.facebook.com/
+  link-x: 5000
+  link-y: 5000
+  qr-image-x: 5000
+  qr-image-y: 5000
+featured-content-slide-show-seconds: 5
+flash-sale:
+  enabled: false
+  items:
+  - audio-uri: /images/flash_chime.wav
+    countdown-format: mm:ss
+    countdown-x: 610
+    countdown-y: 610
+    duration-seconds: 120
+    img: /images/flash_sale_coronarita.png
+    menu-editor-item-id: 1775442
+    time-periods:
+    - daymask: '1111111'
+      hour-start: '11.75'
+      table-ranges:
+      - end: 100
+        start: 0
+    - daymask: '0001000'
+      hour-start: '14.5'
+      table-ranges:
+      - end: 10
+        start: 2
+game-ratings-enabled: false
+game_timeout_interval: 180
+games-page-2:
+  home_promo_video_banner:
+    gradient_enabled: true
+gift-card:
+  balance-inquiry-button-x: 5000
+  balance-inquiry-button-y: 5000
+  balance-inquiry-enabled: true
+  manual-entry-allowed: true
+  pin-is-enabled: false
+  pin-required-gc-ranges: 3086640000000000000-3086640003998990000,3086640004750000000-3086640005249890000,3086640004000000000-3086640004499890000
+  qr-allowed: false
+  server-required-gc-ranges: 6006493889000000000-6006493889499890000,6006491684750000000-6006491684999890000,3086640004000000000-3086640004499890000,6006493889000000000-6006493889499890000
+handheld-lock-screen-login-aloha: false
+heartbeat-interval: 300
+hide-call-server: false
+hide-cart: true
+hide-info-tag: false
+hide-items-not-from-update: false
+hide-pay-tag: true
+hide-premium-content-tag: true
+home-nav:
+  button-show-label-2: true
+  button-show-label-3: false
+  col-link-id-1: 2334678
+  col-link-type-1: OPEN_MENU_ITEM
+  col-text-1: MENU
+host-server-control-panel:
+  coupon-button-enabled: false
+  guest-count-enabled: false
+  host-session-start-timeout: 15
+  left-button-text: '  '
+  right-button-text: Done!
+host-session-start-enabled: true
+http-connect-timeout-secs: 10
+http-read-timeout-secs: 30
+ignore-price-items: 38522,36029
+in-game-advertising-enabled: false
+info:
+- id: ECLUB
+  label: Rewards
+- id: VETERANS
+  label: Denny's on Demand
+- id: GIFT_CARD
+  label: Gift Card
+- id: NUTRITION_INFO
+  label: Nutrition Info
+info-1-label: E Club
+info-2-label: Info
+info-3-label: Map
+info-5-label: Connect
+info-label: Info
+is-split-evenly-enabled: true
+led-duration: 300
+local-log-enabled: true
+logging-configs:
+  logging-levels:
+  - level: debug
+    module: menu_sync
+  - level: debug
+    module: resource_sync
+  root-log-level: info
+loyalty:
+  background-image-path: loyalty/loyalty.png
+  enabled: false
+  header-image-path: loyalty/loyalty_header.png
+  joined-perks: You've joined Perks
+  label-for-visit-frequency: 'I generally visit:'
+  label-for-visit-meal-type: 'I generally visit for:'
+  label-for-visiting-members: 'My visit generally includes:'
+  opt-for-emails: YES! I WANT TO OPT-IN TO RECEIVE PERKS COMMUNICATIONS AND OFFERS
+    THROUGH EMAIL.*
+  opt-for-sms: YES! I WANT TO OPT-IN TO RECEIVE COMMUNICATIONS AND OFFERS THROUGH
+    AUTOMATED SMS AT THE TELEPHONE NUMBER PROVIDED ABOVE.*
+  privacy-path: loyalty/privacy.html
+  rewards-app-name: Rewards App
+  sign-in-pos-id: '29432'
+  signup-bill-screen-enabled: false
+  signup-home-screen-enabled: false
+  sms-opt-out-text: 'Msg & data rates may apply. Max autodialed msgs 4/month. Opt-in
+    not required to make a purchase. Opt-out: text STOP to 22337. Support: text HELP
+    to 22337.'
+  text-for-privacy-link: Privacy Policy
+  text-to-accept-loyalty-terms: By registering, I agree to the Perks Terms and Conditions
+    and Privacy Policy
+loyalty-rewards:
+  card-swipe-default: false
+  enabled: false
+  signup-bill-screen-enabled: false
+  signup-home-screen-enabled: false
+loyalty_redemption:
+  account_number_length: 16
+  enabled: false
+  points_to_redeem: 9
+mask-server-id:
+  enabled: false
+menu-update-enabled: true
+menu-update-interval: 50
+menu-update-mandatory: false
+monetization-models:
+- allow-cancellation: true
+  bought-text: Unlimited Games
+  id: unlock-elc
+  maximum-charge: 1.99
+  name: Unlock Presto Games
+  num-free-games: 0
+  pos-id: 69010
+  title: Unlock Games
+  upsell-action-button-down-image: images/design/revenue/base_paywall_button_down.png
+  upsell-action-button-image: images/design/revenue/base_paywall_button.png
+  upsell-pay-wall-image: images/design/revenue/base_paywall.png
+  uses-big-background: false
+- bought-text: All Toons Unlocked
+  id: unlock-toons
+  maximum-charge: 0.99
+  name: Unlock Toons
+  num-free-games: 0
+  pos-id: 1234
+  title: Unlock All toons
+  upsell-action-button-down-image: images/design/revenue/base_paywall_button_down.png
+  upsell-action-button-image: images/design/revenue/base_paywall_button.png
+  upsell-pay-wall-image: images/design/revenue/base_paywall.png
+  uses-big-background: false
+no-receipt-option-enabled: true
+nutritionals:
+  calories-enabled: true
+  disclaimers-enabled: false
+order-webservice-version: 1
+override-games-free: false
+partial-auth-dialog-warning-text: Continue
+partial-auth-split-remaining-text: Split Remaining
+pay_split_disabled: false
+payment:
+  bin-whitelist-data: '6006490-6006499'
+  bin-whitelist-signature: 016CE39CFA91C55F796A804450F967E44C574050EAFD07C19E3A5479E9076BBB08C1720DB2D73BEEC453C891C4D0EF43588F71A691F1F5C701389783B59ED83CF10D65ABBC4AF3782D5301C8A3CF5623D38193CD5ADA9904063728A373367306863044352A0CB29899BB16F9A690831C6396C5832BFD9DBA6FAE8947F28D2A14AA0AFF96755FABE7DB96A0CB8A17428D2C395E7BFFB3B2C5B067489944781CEF8A6C2372D88B9ADABE8A7B5589D9AED9FFBF51665CF5AD108FD9453F4133E6B1048CE89391E0B002B381A9DE3E4F6E275BEC7ACAFC150F56D38F8E2BFA695425E446395DBAC545A793365DB8D48F45F249C02ADFEA462C7DC444F8CE89A78641
+  card-remove-screen-location: after-receipt-screen
+  check-tax-label: Taxes
+  gift-card-preambles-track1: 600649| B60064| %B6006
+  gift-card-preambles-track2: 600649| ;60064| ^60064
+  giftcard-processing-method: svs
+  pay-full-label: I agree to pay $%s
+  pay-partial-label: I agree to make a partial payment of $%s
+  print-receipt-option-enabled: false
+  printed-receipt-enabled-additional-message: Printed receipt available from the cashier
+  samsung-pay-enabled: false
+  svs-division: '00000'
+  svs-gateway-retries: 3
+  svs-gateway-timeout: 60
+  svs-host: https://webservices-cert.storedvalue.com
+  svs-merchant-name: Dennys
+  svs-merchant-number: '066735'
+  svs-password: aefoo@P5och5ee
+  svs-routing-id: '6792100000000000000'
+  svs-store-number: '9999999999'
+  svs-username: PREST-cert
+  svs-vas-identifier: ''
+  tip-after-tax: true
+payment-allow-debit: true
+payment-allow-pin: true
+payment-application-priority-list: US Debit, Debit, Visa Debit, Mastercard Debit
+payment-cert-path: iMobile3_cert.crt
+payment-company-code: DINEEQUITY
+payment-gateway-server: SHA_2
+payment-giftcard-enabled: true
+payment-giftcard-text: Paying with<br>Denny's Gift Card
+payment-is-test-gateway-server: true
+payment-led-duration: 86400
+payment-log-third-party-logs: true
+payment-merchant-link-server-type: TestPrimary
+payment-merchant-link-urls: https://tv1var.merchantlink-lab.com:8284/TV2G,https://tv2var.merchantlink-lab.com:8285/TV2G
+payment-nfc-enabled: true
+payment-p12-path: merchant_link_certificate.p12
+payment-pin-entry-text: Please enter your PIN
+payment-processor-server-type: TEST
+payment-processor-sha-keys: 9284/TV2G, 9285/TV2G
+payment-request-retry-interval-seconds: 30
+payment-should-default-to-credit: true
+payment-should-rollback-payment: true
+payment-site-code: ELACARTE
+payment-store-and-forward-enabled: false
+payment-terminal-code: 2
+payment-workstation-id: 1
+paywall-dynamically-configurable-enabled: false
+play-scroll-effect-enabled: false
+play-shine-effect-enabled: false
+posmon-api-version: '2'
+premium-content-enabled: true
+premium-survey-timeout-secs: 30
+premium-survey-version: '2.2'
+premium-surveys:
+- content: In regards to your visit today, please rate your overall satisfaction with
+    your visit.
+  enabled: true
+  negative-answers: 0;;1;;2
+  question-id: '00000'
+  question-theme: OSAT
+  question-type: StarRating
+  star-bottom: Not Satisfied
+  star-top: Highly Satisfied
+  stars: 5
+- content: How would you rate the taste of your food?
+  enabled: true
+  negative-answers: 0;;1;;2
+  question-id: '00001'
+  question-type: StarRating
+  star-bottom: Not Satisfied
+  star-top: Highly Satisfied
+  stars: 5
+- content: How would you rate the service you received today?
+  enabled: true
+  negative-answers: 0;;1;;2
+  question-id: '00002'
+  question-type: StarRating
+  star-bottom: Not Satisfied
+  star-top: Highly Satisfied
+  stars: 5
+- content: How would you rate the cleanliness of the restaurant?
+  enabled: true
+  negative-answers: 0;;1;;2
+  question-id: '00003'
+  question-type: StarRating
+  star-bottom: Not Satisfied
+  star-top: Highly Satisfied
+  stars: 5
+- content: Please take a moment to tell us about your visit as well as any other feedback
+    you may have.
+  enabled: true
+  question-id: '00004'
+  question-type: CommentBox
+presto-branding:
+  card-swipe-screen:
+    enabled: false
+  payment-complete-screen:
+    enabled: true
+presto-credits:
+  confirm-credit-purchase: true
+  credit-to-dollar-exchange-rate: 2
+  dialog-header-text-middle: Keep the fun going!
+  dialog-header-text-start: Start the fun!
+  enabled: false
+  header-text: Token Packs on SALE today!
+  initial-balance: 0
+  packs:
+  - bonus-tokens-percent: 0.0
+    display-in-upsell: true
+    label: Quick Play
+    pos-id: 4000
+    price: 0.99
+  - bonus-tokens-percent: 19.21
+    display-in-upsell: true
+    label: Casual Play
+    pos-id: 4000
+    price: 2.99
+  - bonus-tokens-percent: 74.62
+    display-in-upsell: true
+    highlight: true
+    label: POWER Play
+    pos-id: 4000
+    price: 4.99
+presto-device-uptime-hours-threshold: 1
+presto-pergame-charge:
+  enabled: false
+  maximum-charge: 3.0
+  pergame-price: 0.25
+presto-toons-enabled: false
+ratings-enabled: true
+reorder:
+  enabled: false
+  init-number-drinks: 0
+  prompt-timeout: 60
+  reorder-header-text: Re-Order Items?
+  show-always-reorder: false
+  show-free-refill-label: false
+  show-reorder-alert-confirm: false
+resource-sync:
+  download-threads: 3
+  https: true
+  max-retries-proxy: 8
+  proxy-enabled: false
+  proxy_port: 7753
+  use-apache-http: true
+restaurant-code: elc_qa_dennys_1
+screensaver-timeout: 300
+send-employee-message-negative-survey-response: false
+server-mode:
+  category-id-list: 25643,25644,25645,25646,25647,25648,25649,25650,25651,25652
+  enabled: true
+  fast-server-switch: false
+  fast-table-switch: false
+  handheld-lock-screen-login-aloha: false
+  hot-spots-enabled: true
+  order-modes:
+    enabled: false
+  restaurant-synchronization-service-polling-interval: 60
+  scan-coupon-button: true
+  seat-numbering-for-items-enabled: false
+  selectable-discounts-enabled: true
+  selectable-discounts-items-enabled: true
+  server-id-validation: false
+  timeout-secs: 120
+server-swipe:
+  all-digits: true
+  confirm-popup-time: 2
+  max-length: 20
+  min-length: 1
+  track2-prefix: ;
+session:
+  touch-timeout-secs: 600
+session-start-led-pulse-duration: 1800
+session-timeout-period: 120
+should-display-disclaimer-footer: false
+should-use-dummy-payment-manager: false
+show-cash-button: false
+show-email-club-checkbox: true
+show-join-button-height: 100
+show-join-button-on-info: true
+show-join-button-width: 200
+show-join-button-x: 800
+show-join-button-y: 400
+show-led-light-negative-survey-response: true
+show-payment-methods: false
+show-qr-button: false
+show-server-name-main-screen: true
+show-slideshow-dots: false
+show-unavailable-modifiers: false
+show-video-ads: false
+simplified-modifiers-enabled: false
+slideshow-brightness-percentage: '40'
+split-by-item:
+  disabled-on-check-level-discount: true
+  disabled-on-partial-payment: true
+  enabled: false
+  split-check: true
+survey:
+  default-question: Overall, did the Presto improve your dining experience?
+  default-question-op1: 'Yes'
+  default-question-op2: 'No'
+  default-star: Please rate your overall dining experience
+  default-star-label1: Poor
+  default-star-label2: Below Average
+  default-star-label3: Average
+  default-star-label4: Great
+  default-star-label5: Excellent
+  question-op1: 'Yes'
+  question-op2: 'No'
+  star-label1: Poor
+  star-label2: Below Average
+  star-label3: Average
+  star-label4: Great
+  star-label5: Excellent
+  star-question: Please rate your overall dining experience
+  word-question: Overall, did the Presto improve your dining experience?
+survey-show-finish-button: true
+table-number:
+  type: numeric
+test: test
+thank-you-timeout-period: 15
+timespan-webservice-version: 0
+tip:
+  apply-discount-before-tip-calculation: true
+  sub-text: '* Tip is calculated based on total before discount.'
+tip-screen:
+  custom-tip-screen: false
+touch-metrics-enabled: true
+touch-metrics-host: https://webservice.elacarte.com
+touch-metrics-host-local-cert: false
+unlock-elc-model:
+  pos-id: 69010
+volume-initial-percentage-a2: 100
+volume-initial-percentage-a3: 30
+waiter-info:
+  email-is-enabled: false
+web-storage:
+  retry-failed-metrics-interval: 600
+  url: https://webservice.elacarte.com
+web-storage-url: https://webservice.elacarte.com/services/1/object/
+welcome-video-dismiss-seconds: 0
+welcome-video-dismissable: true
+wifi:
+  wifi-retry-enabled: false
+xpient-configs:
+  dual-kitchen-ui-switch: true
+  dual-kitchen-ui-switch-left-button: Kitchen 1
+  dual-kitchen-ui-switch-right-button: Kitchen 2
+  xpient-elc-user-block-payment: true
+  xpient-elc-user-id: 9995
+  xpient-tablet-assignment: true

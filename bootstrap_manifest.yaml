@@ -1,0 +1,179 @@
+
+  ---
+  app-url-base: https://android.elacarte.com/android_3.4.2021.14.5/v3.4.2021.14.5/
+  resource-url-base: https://resources.elacarte.com
+
+  # for downloading
+  app-user-name: presto_resources
+  app-password: 5jkqCfEh
+
+  resource-user-name: presto_resources
+  resource-password: 5jkqCfEh
+
+  installed-apks:
+    - name: ELC Core App
+      uri: https://android.elacarte.com/android_redlobster_S24_203/v3.4.2021.24.203/PrestoCoreApplication-release-signed.apk
+      package: com.elacarte.coreapplication
+      version: "v1.0.2021.015"
+      release: 102021015
+    - name: ELC Main App
+      uri: https://android.elacarte.com/android_redlobster_S24_203/v3.4.2021.24.203/presto_app-release.apk
+      package: com.elacarte.prestoapp
+      version: "3.4.2021.24.203"
+      release: 202124203
+    - name: ELC ServerMode App
+      uri: PrestoServerMode-release-signed.apk
+      package: com.elacarte.servermode
+      version: "v   3.4.2021.622"
+      release: 2021617
+    - name: Action Blox
+      uri: https://android.elacarte.com/games/a3_ActionBlox0211.apk
+      package: com.yourcompany.Bloxorz
+      version: "1.0"
+      release: 1392035364
+    - name: Birdhouses
+      uri: https://android.elacarte.com/games/a3_BirdHouses_v1.0.1.apk
+      package: com.duckiedeck.birdHouses
+      version: "1.0.1"
+      release: 275
+    - name: CoupleQuizV2
+      uri: https://android.elacarte.com/games/a3_CoupleQuizV2-release-pp_r12_v2.12.apk
+      package: com.elacarte.game.couplequizv2
+      version: "2.12"
+      release: 12
+    - name: Cutie Monsters
+      uri: https://android.elacarte.com/games/a3_Cutie_Monsters.apk
+      package: com.littlephoenix.cutiemonsters100indie
+      version: "1.1"
+      release: 2
+    - name: GuesstimateQuiz
+      uri: https://android.elacarte.com/games/a3_GuesstimateQuiz-release-pp_r9_v1.9.apk
+      package: com.elacarte.game.guesstimatequiz
+      version: "1.9"
+      release: 9
+    - name: HTML Game Runner
+      uri: https://android.elacarte.com/games/a3_HTML_Game_Runner-release_r2_v2.0.apk
+      package: elacarte.htmlgamerunner
+      version: "2.0"
+      release: 2
+    - name: Memory
+      uri: https://android.elacarte.com/games/a3_Memory-release-pp_r13_v2.13.apk
+      package: com.elacarte.game.memory.pp
+      version: "2.13"
+      release: 13
+    - name: Presto Quizzes
+      uri: https://android.elacarte.com/games/a3_signed_MVPPrestoQuiz-release_r11_v1.11.apk
+      package: com.elacarte.game.mvpprestoquiz
+      version: "1.11"
+      release: 11
+    - name: Presto Trivia
+      uri: https://android.elacarte.com/games/a3_signed_Presto_Trivia_arm_0.5.6.apk
+      package: air.com.yamyam.Trivia
+      version: "0.5.6"
+      release: 5006
+    - name: Robo Buddies
+      uri: https://android.elacarte.com/games/a3_RoboBuddies_v1.3.9.apk
+      package: com.duckiedeck.Robots
+      version: "1.3.9"
+      release: 278
+    - name: Sandwich Chef
+      uri: https://android.elacarte.com/games/a3_SandwichChef_v1.3.2.apk
+      package: com.duckiedeck.SandwichChef
+      version: "1.3.2"
+      release: 152
+    - name: Smashy Bricks
+      uri: https://android.elacarte.com/games/a3_signed_SmashyBrickElacarteFINAL2.0.apk
+      package: com.bulldozergames.smashybrickELACARTE
+      version: "2.0"
+      release: 10
+    - name: Tippy Wings
+      uri: https://android.elacarte.com/games/a3_TippyWingsPresto3-27.apk
+      package: com.openmicgames.tippywings
+      version: "1.0"
+      release: 1
+    - name: Tough Call
+      uri: https://android.elacarte.com/games/a3_ToughCall-release-pp_r15_v2.15.apk
+      package: com.elacarte.game.toughcall.pp
+      version: "2.15"
+      release: 15
+    - name: Tractor Crew
+      uri: https://android.elacarte.com/games/a3_tractorCrew_android.apk
+      package: com.kuriusgames.tractorcrew
+      version: "2.0.9"
+      release: 209
+    - name: Tricky Pictures
+      uri: https://android.elacarte.com/games/a3_TrickyPictures-release-pp_r12_v3.12.apk
+      package: com.elacarte.game.trickypictures.pp
+      version: "3.12"
+      release: 12
+    - name: Word Bombs
+      uri: https://android.elacarte.com/games/a3_WordBombs-release-pp_r12_v2.12.apk
+      package: com.elacarte.game.wordbombs.pp
+      version: "2.12"
+      release: 12
+    - name: Talk Back Accessibility
+      uri: https://android.elacarte.com/games/a3_talkbacknew.apk
+      package: com.android.talkback
+      version: "5.0.7_aosp"
+      release: 50007000
+    - name: Hill Climbing Mania
+      uri: https://android.elacarte.com/games/hillclimbingmania-signed.apk
+      package: sk.inlogic.hillclimbingmania
+      version: "1.0.2"
+      release: 1
+    - name: Twisty Ride
+      uri: https://android.elacarte.com/games/twistyride-signed.apk
+      package: com.InlogicGames.TwistyRide
+      version: "1.0.0"
+      release: 1
+    - name: Dragon Drop
+      uri: https://android.elacarte.com/games/dd-signed.apk
+      package: com.SquishStudios.DragonDrop.Paid
+      version: "1.0"
+      release: 1
+    - name: Memory Match And Catch
+      uri: https://android.elacarte.com/games/MemoryMatchAndCatch_Presto_signed.apk
+      package: com.SquishStudios.MemoryMatchAndCatch.Paid
+      version: "2.0"
+      release: 2
+    - name: Prestogram
+      uri: https://android.elacarte.com/games/MVPPrestogram-releaseA3_r2_v2_40-signed.apk
+      package: com.elacarte.game.mvpprestogram
+      version: "2.40"
+      release: 40
+    - name: Training App
+      uri: https://android.elacarte.com/games/com.docebo.eolo.staging_1813_apps.evozi.com-signed.apk
+      package: com.docebo.eolo.staging
+      version: "1.4.2"
+      release: 1813
+
+  retired-apks:
+    - package: org.kde.necessitas.example.ECL
+    - package: com.google.android.divideandconquer
+    - package: com.disneydigitalbooks.toystorytheater_goo
+    - package: com.disneydigitalbooks.princessstorytheater_goo
+    - package: com.disneydigitalbooks.mickeycountalong
+    - package: com.disneydigitalbooks.cars2readandrace
+    - package: com.DisneyDigitalBooks.The7DMineTrain_AFTU
+    - package: com.disneydigitalbooks.olafsbestdayever_amaFTU
+    - package: com.disneydigitalbooks.minniebowmaker_goo
+    - package: com.elacarte.game.mvptriviaattack
+    - package: com.elacarte.game.mvpprestogram
+    - package: com.agpbrands.carebears.lovetolearn.elacarte
+    - package: com.elacarte.game.canvas.pp
+    - package: com.kuriusgames.petfishrescue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
